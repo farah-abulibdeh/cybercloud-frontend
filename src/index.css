@@ -21,6 +21,41 @@ body {
   color: var(--ink);
 }
 
+
+.service-card {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-icon {
+  opacity: 0.5;
+}
+
+.service-tag {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+.deployment-note p {
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
 button, input, select { font: inherit; }
 
 button {
