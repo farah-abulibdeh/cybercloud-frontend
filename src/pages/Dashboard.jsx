@@ -58,27 +58,7 @@ export default function Dashboard() {
         ))}
       </div>
 
-      <div className="deployment-note">
-        <h3>Deployment Architecture</h3>
-        <p>
-          CyberCloud is deployed using a client-service-database structure. The React
-          frontend is hosted on Azure Static Web Apps, so users can access the system
-          directly from a public Azure URL without running anything locally
-        </p>
-
-        <p>
-          The backend is separated into four Spring Boot microservices, and each
-          microservice is deployed independently as an Azure Web App. The frontend
-          communicates with these services using HTTPS REST requests and receives JSON
-          responses.
-        </p>
-
-        <p>
-          Each microservice connects to its own Azure MySQL database. The databases
-          remain private inside the Azure cloud network, meaning users interact only
-          with the frontend and backend APIs, not directly with the databases.
-        </p>
-      </div>
+      
     </section>
   );
 }
