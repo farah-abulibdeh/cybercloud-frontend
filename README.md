@@ -18,10 +18,10 @@ The databases remain private behind each microservice.
 Update `.env.production` before deploying:
 
 ```env
-VITE_ACCOUNT_HOME_API=https://your-account-home-app.azurewebsites.net
+VITE_ACCOUNT_HOME_API=https://accounttss-h6cbhuhjbtcadjfb.uaenorth-01.azurewebsites.net
 VITE_DEVICE_REGISTRY_API=https://cybcercloud-dev-reg-d9c4emawaffvfeb8.switzerlandnorth-01.azurewebsites.net
-VITE_DEVICE_CONTROL_API=https://your-control-app.azurewebsites.net
-VITE_SECURITY_API=https://your-security-app.azurewebsites.net
+VITE_DEVICE_CONTROL_API=https://device-control-service-chb2cgebcgbcc4d5.westeurope-01.azurewebsites.net
+VITE_SECURITY_API=https://security-logging-service-ezd8dtdqatcba2f0.westeurope-01.azurewebsites.net/
 ```
 
 Do not add a trailing slash at the end of URLs.
