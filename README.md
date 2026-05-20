@@ -52,11 +52,3 @@ Azure Static Web Apps settings:
 After deploying the frontend, go to every backend Azure Web App:
 
 `Web App -> API -> CORS`
-
-Add the deployed Static Web App URL, for example:
-
-```text
-https://your-frontend.azurestaticapps.net
-```
-
-Also add `http://localhost:5173` only if testing locally.
